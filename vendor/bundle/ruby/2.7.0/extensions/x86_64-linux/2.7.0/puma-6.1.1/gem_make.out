@@ -1,0 +1,28 @@
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/puma-6.1.1/ext/puma_http11
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+using OpenSSL pkgconfig (openssl.pc)
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/puma-6.1.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230302-8047-v6w6me sitelibdir\=./.gem.20230302-8047-v6w6me clean
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/puma-6.1.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230302-8047-v6w6me sitelibdir\=./.gem.20230302-8047-v6w6me
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/puma-6.1.1/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230302-8047-v6w6me sitelibdir\=./.gem.20230302-8047-v6w6me install
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20230302-8047-v6w6me/puma
