@@ -1,0 +1,17 @@
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20230228-43181-m0e0ix sitelibdir\=./.gem.20230228-43181-m0e0ix clean
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20230228-43181-m0e0ix sitelibdir\=./.gem.20230228-43181-m0e0ix
+compiling parser.c
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /home/randy/Desktop/Development/Lectures/phase-3/phase-3-sinatra-lecture-code-along/vendor/bundle/ruby/2.7.0/gems/thin-1.8.1/ext/thin_parser
+make DESTDIR\= sitearchdir\=./.gem.20230228-43181-m0e0ix sitelibdir\=./.gem.20230228-43181-m0e0ix install
+/usr/bin/install -m 0755 thin_parser.so ./.gem.20230228-43181-m0e0ix
